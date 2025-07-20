@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Projects | Campbell Sheet Metal Inc.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="Campbell Sheet Metal Inc. Logo">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link btn btn-primary-outline">Request a Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-header" style="background-image: url('images/5.jpg');">
+            <div class="container">
+                <h1 data-aos="fade-up">Project Showcase</h1>
+                <p data-aos="fade-up" data-aos-delay="100">A Look at Our Finished Work</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="project-filters" data-aos="fade-up">
+                    <button class="btn-filter active" data-filter="all">All</button>
+                    <button class="btn-filter" data-filter="hvac">HVAC</button>
+                    <button class="btn-filter" data-filter="commercial">Commercial</button>
+                    <button class="btn-filter" data-filter="custom">Custom</button>
+                </div>
+                <div class="project-grid" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-item hvac">
+                        <img src="images/21.jpg" alt="Project 1">
+                        <div class="project-overlay"><h3>Hospital HVAC System</h3></div>
+                    </div>
+                     <div class="project-item commercial">
+                        <img src="images/24.jpg" alt="Project 2">
+                        <div class="project-overlay"><h3>Retail Center Ductwork</h3></div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Campbell Sheet Metal Inc. Logo" class="footer-logo">
+                    <p>Your partner in precision industrial and commercial sheet metal fabrication.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="assets/campbell-brochure.pdf" download>Download Brochure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 1207 E 5th St, North Little Rock, AR 72114</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sales@campbellsheetmetal.com">sales@campbellsheetmetal.com</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Campbell Sheet Metal Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
